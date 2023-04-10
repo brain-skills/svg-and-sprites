@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/images/favicons/512.png" sizes="512x512" />
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/images/favicons/256.png" sizes="256x256" />
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/images/favicons/128.png" sizes="128x128" />
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/images/favicons/64.png" sizes="64x64" />
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon.png" sizes="32x32">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <title>SVG and Sprites</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h2>CSS спрайты</h2>
+    <div class="sprite">
+        <i class="facebook"></i>
+        <i class="pinterest"></i>
+        <i class="digg"></i>
+    </div>
+    <h2>SVG img sprite (import by img src+id#)</h2>
+	<img width="50" height="50" src="assets/sprite/sprite.svg#zero">
+    <img width="50" height="50" src="assets/sprite/sprite.svg#one">
+    <img width="50" height="50" src="assets/sprite/sprite.svg#two">
+    <img width="50" height="50" src="assets/sprite/sprite.svg#three">
+    <img width="50" height="50" src="assets/sprite/sprite.svg#four">
+    <img width="50" height="50" src="assets/sprite/sprite.svg#five">
+    <img width="50" height="50" src="assets/sprite/sprite.svg#six">
+    <img width="50" height="50" src="assets/sprite/sprite.svg#seven">
+    <img width="50" height="50" src="assets/sprite/sprite.svg#eight">
+    <img width="50" height="50" src="assets/sprite/sprite.svg#nine">
+    <h2>SVG img (import by img tag)</h2>
+    <div class="img-svg-import one-example">
+        <div class="icon"><img width="50" height="50" src="assets/svg/thin/home.svg"><p>thin svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/light/home.svg"><p>light svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/regular/home.svg"><p>regular svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/solid/home.svg"><p>solid svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/duotone/home.svg"><p>duotone svg</p></div>
+    </div>
+    <div class="img-svg-import two-example">
+        <div class="icon"><img width="50" height="50" src="assets/svg/thin/users.svg"><p>thin svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/light/users.svg"><p>light svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/regular/users.svg"><p>regular svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/solid/users.svg"><p>solid svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/duotone/users.svg"><p>duotone svg</p></div>
+    </div>
+    <div class="img-svg-import three-example">
+        <div class="icon"><img width="50" height="50" src="assets/svg/thin/plane.svg"><p>thin svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/light/plane.svg"><p>light svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/regular/plane.svg"><p>regular svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/solid/plane.svg"><p>solid svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/duotone/plane.svg"><p>duotone svg</p></div>
+    </div>
+    <div class="img-svg-import four-example">
+        <div class="icon"><img width="50" height="50" src="assets/svg/thin/globe.svg"><p>thin svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/light/globe.svg"><p>light svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/regular/globe.svg"><p>regular svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/solid/globe.svg"><p>solid svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/duotone/globe.svg"><p>duotone svg</p></div>
+    </div>
+    <div class="img-svg-import five-example">
+        <div class="icon"><img width="50" height="50" src="assets/svg/thin/list.svg"><p>thin svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/light/list.svg"><p>light svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/regular/list.svg"><p>regular svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/solid/list.svg"><p>solid svg</p></div>
+        <div class="icon"><img width="50" height="50" src="assets/svg/duotone/list.svg"><p>duotone svg</p></div>
+    </div>
+    <h2>SVG background (import by css)</h2>
+    <div class="svg-bg">
+        <i class="zero"></i>
+        <i class="one"></i>
+        <i class="two"></i>
+        <i class="three"></i>
+        <i class="four"></i>
+        <i class="five"></i>
+        <i class="six"></i>
+        <i class="seven"></i>
+        <i class="eight"></i>
+        <i class="nine"></i>
+    </div>
+    <h2>SVG only (import by svg)</h2>
+    <div class="svg-full">
+        <div class="zero">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M160 32C71.781 32 0 103.781 0 192V320C0 408.219 71.781 480 160 480S320 408.219 320 320V192C320 103.781 248.219 32 160 32ZM288 320C288 390.594 230.594 448 160 448S32 390.594 32 320V192C32 121.406 89.406 64 160 64S288 121.406 288 192V320Z"/></svg>
+        </div>
+        <div class="one">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M256 464C256 472.844 248.844 480 240 480H16C7.156 480 0 472.844 0 464S7.156 448.001 16 448.001H112V78.726L57.172 117.1C49.953 122.225 39.953 120.413 34.891 113.194C29.828 105.944 31.578 95.976 38.828 90.913L118.828 34.914C123.719 31.477 130.109 31.039 135.391 33.82C140.688 36.57 144 42.039 144 48.008V448.001H240C248.844 448.001 256 455.157 256 464Z"/></svg>
+        </div>
+        <div class="two">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M320 463.998C320 472.843 312.844 480 304 480H16.003C9.394 480 3.472 475.937 1.081 469.78C-1.31 463.623 0.347 456.622 5.237 452.152L218.47 257.97C264.172 217.902 269.485 150.236 230.751 103.761C211.501 80.664 184.407 66.662 154.439 64.287C124.689 62.068 95.549 71.538 72.908 91.322L40.862 119.357C34.221 125.139 24.128 124.514 18.284 117.857C12.472 111.199 13.143 101.104 19.8 95.291L51.846 67.256C81.002 41.721 118.58 29.657 156.939 32.376C195.579 35.439 230.516 53.504 255.329 83.258C305.266 143.204 298.422 230.435 239.782 281.848L57.346 447.996H304C312.844 447.996 320 455.153 320 463.998Z"/></svg>
+        </div>
+        <div class="three">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M320 352C320 422.594 262.578 480 192 480H93.094C51.156 480 14.078 453.281 0.828 413.5C-1.969 405.125 2.562 396.062 10.938 393.25C19.359 390.438 28.375 395 31.172 403.375C40.078 430.062 64.953 448 93.094 448H192C244.938 448 288 404.938 288 352S244.938 256 192 256H80C73.406 256 67.5 251.969 65.094 245.812C62.703 239.688 64.312 232.719 69.141 228.25L247.078 64H16C7.156 64 0 56.844 0 48S7.156 32 16 32H288C294.594 32 300.5 36.031 302.906 42.188C305.297 48.312 303.688 55.281 298.859 59.75L120.922 224H192C262.578 224 320 281.406 320 352Z"/></svg>
+        </div>
+        <div class="four">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M384 336.007C384 344.85 376.844 352.006 368 352.006H320.001V464.001C320.001 472.844 312.845 480 304.001 480S288.001 472.844 288.001 464.001V352.006H16.004C10.458 352.006 5.317 349.131 2.395 344.413C-0.527 339.694 -0.792 333.819 1.692 328.851L145.69 40.864C149.659 32.99 159.237 29.709 167.159 33.708C175.065 37.677 178.268 47.27 174.315 55.176L41.895 320.008H288.001V144.016C288.001 135.172 295.157 128.016 304.001 128.016S320.001 135.172 320.001 144.016V320.008H368C376.844 320.008 384 327.163 384 336.007Z"/></svg>
+        </div>
+        <div class="five">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M319.999 352C319.999 422.594 262.577 480 191.999 480H94.702C52.045 480 14.311 452.812 0.827 412.344C-1.97 403.969 2.561 394.906 10.936 392.094C19.42 389.25 28.389 393.844 31.17 402.219C40.311 429.594 65.842 448 94.702 448H191.999C244.936 448 287.999 404.938 287.999 352S244.936 256 191.999 256H15.999C11.077 256 6.42 253.719 3.389 249.844S-0.72 240.906 0.483 236.125L48.483 44.125C50.264 37 56.655 32 63.999 32H271.999C280.842 32 287.999 39.156 287.999 48S280.842 64 271.999 64H76.499L36.499 224H191.999C262.577 224 319.999 281.406 319.999 352Z"/></svg>
+        </div>
+        <div class="six">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M0 320C0 408.219 71.781 480 160 480S320 408.219 320 320S248.219 160 160 160C147.457 160 135.391 161.797 123.672 164.539L219.844 58.75C225.781 52.219 225.312 42.094 218.75 36.156C215.688 33.375 211.844 32 208 32C203.656 32 199.312 33.75 196.156 37.25C51.704 196.148 0 238.621 0 320ZM288 320C288 390.594 230.594 448 160 448S32 390.594 32 320S89.406 192 160 192S288 249.406 288 320Z"/></svg>
+        </div>
+        <div class="seven">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M317.633 56.375L61.627 472.375C58.595 477.281 53.345 480 48.001 480C45.126 480 42.22 479.25 39.626 477.625C32.095 473 29.751 463.125 34.376 455.625L275.382 64H16C7.156 64 0 56.844 0 48S7.156 32 16 32H304.008C309.789 32 315.133 35.125 317.977 40.188C320.789 45.25 320.664 51.438 317.633 56.375Z"/></svg>
+        </div>
+        <div class="eight">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M250.715 251.652C282.812 230.09 304 193.48 304 152C304 85.844 250.156 32 184 32H136C69.844 32 16 85.844 16 152C16 193.48 37.188 230.09 69.285 251.652C28.496 270.842 0 312.027 0 360C0 426.156 53.844 480 120 480H200C266.156 480 320 426.156 320 360C320 312.027 291.504 270.842 250.715 251.652ZM48 152C48 103.469 87.469 64 136 64H184C232.531 64 272 103.469 272 152S232.531 240 184 240H136C87.469 240 48 200.531 48 152ZM200 448H120C71.469 448 32 408.531 32 360S71.469 272 120 272H200C248.531 272 288 311.469 288 360S248.531 448 200 448Z"/></svg>
+        </div>
+        <div class="nine">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M320 192C320 103.781 248.219 32 160 32S0 103.781 0 192S71.781 352 160 352C172.543 352 184.609 350.203 196.328 347.461L100.156 453.25C94.219 459.781 94.688 469.906 101.25 475.844C104.312 478.625 108.156 480 112 480C116.344 480 120.688 478.25 123.844 474.75C268.296 315.852 320 273.379 320 192ZM32 192C32 121.406 89.406 64 160 64S288 121.406 288 192S230.594 320 160 320S32 262.594 32 192Z"/></svg>
+        </div>
+    </div>
+    
+    <script></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+.sprite i {
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.sprite i:hover {cursor: pointer;}
+.facebook {
+    width: 40px !important;
+    height: 40px !important;
+    background-position: -54px -4px;
+}
+.facebook:hover {
+    background-position: -54px -51px;
+}
+.pinterest {
+    width: 40px !important;
+    height: 40px !important;
+    background-position: -150px -4px;
+}
+.pinterest:hover {
+    background-position: -150px -51px;
+}
+.digg {
+    width: 40px !important;
+    height: 40px !important;
+    background-position: -386px -4px;
+}
+.digg:hover {
+    background-position: -386px -51px;
+}
+
+.img-svg-import div.icon {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.img-svg-import div.icon:first-child {
+    margin-left: 0px;
+}
+.img-svg-import div.icon:last-child {
+    margin-right: 0px;
+}
+.svg-bg i {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.svg-bg .zero {background-image: url("../svg/light/0.svg");}
+.svg-bg .one {background-image: url("../svg/light/1.svg");}
+.svg-bg .two {background-image: url("../svg/light/2.svg");}
+.svg-bg .three {background-image: url("../svg/light/3.svg");}
+.svg-bg .four {background-image: url("../svg/light/4.svg");}
+.svg-bg .five {background-image: url("../svg/light/5.svg");}
+.svg-bg .six {background-image: url("../svg/light/6.svg");}
+.svg-bg .seven {background-image: url("../svg/light/7.svg");}
+.svg-bg .eight {background-image: url("../svg/light/8.svg");}
+.svg-bg .nine {background-image: url("../svg/light/9.svg");}
+
+.svg-full div {display: inline-block;}
+.svg-full div svg{width: 50px; height: 50px;}
+.svg-full .zero {fill: red;}
+.svg-full .one {fill: green;}
+.svg-full .two {fill: blue;}
+.svg-full .three {fill: orange;}
+.svg-full .four {fill: skyblue;}
+.svg-full .five {fill: violet;}
+.svg-full .six {fill: darkcyan;}
+.svg-full .seven {fill: darkorange;}
+.svg-full .eight {fill: darkred;}
+.svg-full .nine {fill: darkmagenta;}
